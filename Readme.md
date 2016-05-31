@@ -11,14 +11,13 @@
 </table>
 
 <div align = "center"><img src = "http://i.imgur.com/CDKZc.png" border = "0"/></div>
-### v0.3.1 online demo @ <a href = "http://asciimo.com" target = "_blank">http://asciimo.com</a>
 ### font files are FIGlet .flf files <a href = "http://en.wikipedia.org/wiki/FIGlet">http://en.wikipedia.org/wiki/FIGlet</a>
 ## USAGE
 
-### command-line -
+### CLI:
           asciimo "roffles" Cybermedium
 
-### node.js - 
+### Node.JS:
           var sys = require('sys');
           var asciimo = require('./lib/asciimo').Figlet;
           var colors = require('./lib/colors'); // add colors for fun
@@ -54,7 +53,7 @@
 
           });
 
-### browser - 
+### browser:
 
           // the current browser demo requires jQuery. you could easily make it work without jQuery.
           // we'll have to figure out a smarter way to make this library work dual-sided. 
@@ -134,5 +133,6 @@
 
 
 ## Authors
+#### GabrielTK,
 #### Marak Squires, 
 ####AWESOME FIGlet parser by <a href = "http://github.com/scottgonzalez/figlet-js">Scott Gonzalez</a>
