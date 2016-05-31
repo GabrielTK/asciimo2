@@ -1,5 +1,5 @@
 var fs = require('fs'),
-    util = require('util'),
+    sys = require('sys'),
     events = require('events'),
     buffer = require('buffer'),
     http = require('http'),
@@ -243,7 +243,7 @@ this.Server.prototype.stream = function (pathname, files, buffer, res, callback)
                 streamFile(files, offset);
             }).addListener('error', function (err) {
                 callback(err);
-                util.error(err);
+                sys.error(err);
             });
         } else {
             res.end();
